@@ -1,0 +1,37 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+html , body , #root {
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.titulo{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo:hover{
+    color: blue;
+}
+
+.token{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.token:hover{
+    color: blue;
+}
