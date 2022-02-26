@@ -1,11 +1,14 @@
-import Header from "./components/NavBar"
-import Main from "./Main"
-import Footer from "./Footer"
+import NavBar from "./components/NavBar"
+import ItemListContainer from "./components/ItemListContainer"
+import Main from "./components/Main"
+import Footer from "./components/Footer"
+
 
 function App () {
     return (
         <>
-            <Header />
+            <NavBar />
+            <ItemListContainer greeting="Saludos" />
             <Main />
             <Footer />
         </>
