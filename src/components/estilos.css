@@ -50,7 +50,28 @@ html , body , #root {
     display: flex;
     align-content: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 3rem;
+}
+
+.contenedorContador{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding: 20px;
+    border: 1px black solid;
+    align-items: center;
+
+
+}
+
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 5px;
 }
 
 main{

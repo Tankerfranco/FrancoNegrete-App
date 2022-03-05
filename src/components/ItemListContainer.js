@@ -1,8 +1,19 @@
-const ItemListContainer = (props) => {
+import { useState } from "react"
+import ItemCount from "./ItemCount"
+
+
+const ItemListContainer = () => {
+    const [stock, setStock] = useState(10)
+    const addToCart = (agregado) => {
+        if(stock - agregado >= 0)
+            setStock(stock - agregado)
+    }
+
     return (
         <div className="contenedor">
-            <h1>{props.greeting}, aca ira el catalogo.</h1>
+            <ItemCount stock={stock} initial={1} onAdd={addToCart} />
         </div>
+        
     )
 }
 
