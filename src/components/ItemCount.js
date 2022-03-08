@@ -18,16 +18,15 @@ const ItemCount = (props) => {
     const addToCart = () => { props.onAdd(cantidad); setCantidad(1) }
 
     return (
-        <div className="contenedorContador">
-            <h1>camisa</h1>
-            <p>{props.stock}</p>
+        <>
+            <p>Stock: {props.stock}</p>
             <div className="contenedorBotones">
-                <button onClick={restar} className="restar">-</button>
+                <button onClick={restar} className="btn">-</button>
                 <p>{cantidad}</p>
-                <button onClick={aumentar} className="aumentar">+</button>
+                <button onClick={aumentar} className="btn">+</button>
             </div>
             <button className="botonAgregar" onClick={addToCart}>Agregar al carrito</button>
-        </div>
+        </>
     )
 }
 

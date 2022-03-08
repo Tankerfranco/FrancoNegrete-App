@@ -48,22 +48,28 @@ html , body , #root {
 
 .contenedor{
     display: flex;
-    align-content: center;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3rem;
+    flex-direction: row;
+    margin: 3rem;
+    flex-wrap: wrap;
 }
 
-.contenedorContador{
+.card{
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
-    padding: 20px;
     border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
     align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1.2rem;
+}
 
-
+.imagen{
+    width: 200px;
 }
 
 .contenedorBotones{
@@ -73,6 +79,37 @@ html , body , #root {
     font-size: 1.5rem;
     padding: 5px;
 }
+
+.btn{
+    color: white;
+    background-color: red;
+    font-size: 16px;
+    width: 20px;
+    border: 2px solid red;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.botonAgregar{
+    color: white;
+    background-color: red;
+    font-size: 16px;
+    width: 50%;
+    border: 2px solid red;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.4s;
+}
+
+.botonAgregar:hover{
+    color: black;
+    background-color: white;
+}
+
+
 
 main{
     flex-grow: 1;

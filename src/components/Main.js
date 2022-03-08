@@ -1,9 +1,9 @@
+import ItemListContainer from "./ItemListContainer"
+
 const Main = () => {
   return (
-    <main className="conteiner">
-      <div>
-
-      </div>
+    <main>
+      <ItemListContainer />
     </main>
   )
 }
