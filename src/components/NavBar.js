@@ -1,15 +1,20 @@
-import CartWidget from "./CartWidget"
+import CartWidget from "./CartWidget";
+import { Link } from "react-router-dom";
 
 function NavBar() {
-    return <header className="header">
-            <a href="#" className="titulo"><h1>Titulo</h1></a>
-            <nav>
-                <a className="token" href="#">Token1</a>
-                <a className="token" href="#">Token2</a>
-                <a className="token" href="#">Token2</a>   
-            </nav>
-            <CartWidget/>                    
+  return (
+    <header className="header">
+      <Link to="/" className="titulo">
+        <h1>Titulo</h1>
+      </Link>
+      <nav>
+        <Link className="token" to="/categoria/1">
+          Productos
+        </Link>
+      </nav>
+      <CartWidget />
     </header>
+  );
 }
 
-export default NavBar
+export default NavBar;

@@ -1,22 +1,14 @@
-import ItemCount from "./ItemCount";
-import React, {useState} from "react";
-
-
+import { Link } from "react-router-dom"
 
 const Item = (props) => {
 
-    const [stock, setStock] = useState(10)
-    const addToCart = (agregado) => {
-        if(stock - agregado >= 0)
-            setStock(stock - agregado)
-    }
-
     return (
         <div className="card">
-            <img className="imagen" src={props.img} alt={props.alt} />
+            <img className="imagen" src={props.img} alt={props.nombre} />
             <h3>{props.nombre}</h3>
-            <p>Precio: ${props.precio}</p>
-            <ItemCount stock={stock} initial={1} onAdd={addToCart} />
+            <button className="btnDetalles">
+            <Link to={`/item/${props.id}`}>ver detalle</Link>
+            </button>
         </div>
     )
 }
