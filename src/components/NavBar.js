@@ -5,11 +5,17 @@ function NavBar() {
   return (
     <header className="header">
       <Link to="/" className="titulo">
-        <h1>Titulo</h1>
+        <h1>JUEGOTECA</h1>
       </Link>
       <nav>
-        <Link className="token" to="/categoria/1">
-          Productos
+        <Link className="token" to="/categoria/Accion">
+          Accion
+        </Link>
+        <Link className="token" to="/categoria/Rpg">
+          Rpg
+        </Link>
+        <Link className="token" to="/categoria/Aventura">
+          Aventura
         </Link>
       </nav>
       <CartWidget />

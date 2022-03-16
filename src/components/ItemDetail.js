@@ -1,8 +1,9 @@
 import ItemCount from "./ItemCount";
 import React, { useState } from "react";
 
-const ItemDetail = ({ item }) => {
-  const { nombre, descripcion, precio, img } = item;
+const ItemDetail = ({producto}) => {
+
+  const {nombre, img, descripcion, precio} = producto
   const [stock, setStock] = useState(10)
     const addToCart = (agregado) => {
         if(stock - agregado >= 0)
@@ -12,7 +13,7 @@ const ItemDetail = ({ item }) => {
     <div className="detalles">
       <img className="imagenDetalles" src={img} alt={nombre} />
       <div className="textoDetalles">
-        <h1>{nombre}</h1>
+        <h1 className="nombre">{nombre}</h1>
         <h2>Descripcion:</h2>
         <p className="texto">{descripcion}</p>
         <h3>Precio: ${precio}</h3>
