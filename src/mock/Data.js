@@ -41,10 +41,18 @@ export const PRODUCTS = [
     },
     {
       id: 6,
-      nombre: "Uncharted 2",
+      nombre: "Uncharted 4",
       img: "/caratulaUncharted.jpg",
       precio: 60,
       descripcion: "Ambientada dos años después de los eventos de El tesoro de Drake, El reino de los ladrones sigue a Nathan Drake y Chloe Frazer en su búsqueda",
+      categoria: "Aventura"
+    },
+    {
+      id: 7,
+      nombre: "Just Cause 4",
+      img: "/caratulaJust.jpg",
+      precio: 60,
+      descripcion: "Just Cause 4 es un videojuego de acción y aventuras en tercera persona ambientado en un mundo abierto.",
       categoria: "Aventura"
     }
   ];

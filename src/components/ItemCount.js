@@ -16,12 +16,8 @@ const ItemCount = (props) => {
         }
     }
 
-    const addToCart = () => { props.onAdd(cantidad); setCantidad(1) }
+    const addToCart = () => { props.onAdd(cantidad); setCantidad(0) }
     
-    
-
-    
-
     return (
         <>
 
@@ -31,8 +27,8 @@ const ItemCount = (props) => {
                 <p>{cantidad}</p>
                 <button onClick={aumentar} className="btn">+</button>
             </div>
-            <button className={props.stock == 0 ? "null" : "botonAgregar"} onClick={addToCart} disabled={props.stock == 0 ? true : false}>Agregar al carrito</button>
-            <button className={props.stock == 0 ? "botonCompra" : "null"} disabled={props.stock == 0 ? false : true}>
+            <button className={props.stock === 0 ? "null" : "botonAgregar"} onClick={addToCart}>Agregar al carrito</button>
+            <button className={props.stock === 0 ? "botonCompra" : "null"}>
                 <NavLink to={"/carrito"}>Ir al Carrito</NavLink>
             </button>
             
