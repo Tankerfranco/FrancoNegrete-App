@@ -20,9 +20,7 @@ export const CartContextProvider = ({ children }) => {
 
     const removeItem = (producto) => {
         if (isInCart(producto)) {
-          // 2. buscar dentro del carrito
           const cartAuxiliar = cart.filter(item => item.producto !== producto)
-          // 3. actualizar carrito
           setCart(cartAuxiliar)
         }
     }

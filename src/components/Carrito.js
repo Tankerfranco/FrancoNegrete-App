@@ -6,7 +6,6 @@ const Carrito = () => {
   return (
     <>
         {cart.map((item) => {
-          console.log('item', item)
           return (
               <div key={item.producto.id} className="contenedorCarrito">
                 <img src={item.producto.img} alt={item.producto} className="imagenCarrito" />
@@ -16,7 +15,6 @@ const Carrito = () => {
                 <button onClick={()=> removeItem(item.producto)} className="btn">x</button>
                 <button onClick={clear} className="btnLimpiar">Limpiar</button>
               </div>
-              
           );
         })}
     </>

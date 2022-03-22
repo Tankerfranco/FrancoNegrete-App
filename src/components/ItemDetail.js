@@ -16,8 +16,6 @@ const ItemDetail = ({producto}) => {
     }
   };
 
-  console.log('cart', cart)
-
   return (
     <div className="detalles">
       <img className="imagenDetalles" src={producto.img} alt={producto.nombre} />
