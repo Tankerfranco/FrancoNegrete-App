@@ -1,37 +1,17 @@
 import { useState} from "react"
-import { NavLink } from "react-router-dom"
 
-const ItemCount = (props) => {
-    const [cantidad, setCantidad] = useState(props.init)
-
-    const aumentar = () => {
-        if(cantidad < props.stock){
-            setCantidad(cantidad + 1)
-        }
-    }
-
-    const restar = () => {
-        if(cantidad > 0){
-            setCantidad(cantidad - 1)
-        }
-    }
-
-    const addToCart = () => { props.onAdd(cantidad); setCantidad(0) }
+const ItemCount = ({ stock = 0, initial = 0, onAdd = () =>{}}) => {
+    const [count, setCount] = useState(initial)
     
     return (
         <>
-
-            <p>Stock: {props.stock}</p>
+            <p>Stock: {stock}</p>
             <div className="contenedorBotones">
-                <button onClick={restar} className="btn">-</button>
-                <p>{cantidad}</p>
-                <button onClick={aumentar} className="btn">+</button>
+                <button onClick={()=> setCount(count - 1)} className="btn" disabled={stock === 0 || count <= 0}>-</button>
+                <p>{count}</p>
+                <button onClick={()=> setCount(count + 1)} className="btn"  disabled={stock === 0 || count >= stock }>+</button>
             </div>
-            <button className={props.stock === 0 ? "null" : "botonAgregar"} onClick={addToCart}>Agregar al carrito</button>
-            <button className={props.stock === 0 ? "botonCompra" : "null"}>
-                <NavLink to={"/carrito"}>Ir al Carrito</NavLink>
-            </button>
-            
+            <button className="botonAgregar" onClick={()=> onAdd(count)} disabled={stock === 0 || count <= 0 || count > stock}>Agregar al carrito</button>
         </>
     )
 }

@@ -3,17 +3,20 @@ import Main from "./components/Main"
 import Footer from "./components/Footer"
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import {BrowserRouter} from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
+import { CartContextProvider } from "./context/CartContext"
 
 
-function App () {
+function App() {
     return (
-        <BrowserRouter>
-            <NavBar />
-            <Main />
-            <Footer />
-            <ToastContainer/>
-        </BrowserRouter>
+        <CartContextProvider>
+            <BrowserRouter>
+                <NavBar />
+                <Main />
+                <Footer />
+                <ToastContainer />
+            </BrowserRouter>
+        </CartContextProvider>
     )
 }
 

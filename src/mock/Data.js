@@ -5,7 +5,8 @@ export const PRODUCTS = [
       img: "/caratulaCall.jpg",
       precio: 60,
       descripcion: "Juego de simulacion ambientado en la primera guerra mundial.",
-      categoria: "Accion"
+      categoria: "Accion",
+      
     },
     {
       id: 2,
@@ -13,7 +14,8 @@ export const PRODUCTS = [
       img: "/caratulaBatman.jpg",
       precio: 60,
       descripcion: "Batman enfrentandose a sus villanos mas iconicos en el asilo de Arkhan.",
-      categoria: "Accion"
+      categoria: "Accion",
+      stock: 10
     },
     {
       id: 3,
@@ -21,7 +23,8 @@ export const PRODUCTS = [
       img: "/caratulaFinal.jpg",
       precio: 30,
       descripcion: "Final Fantasy 4 es un jrpg en donde puedes subir de nivel y enfrentar monstruos.",
-      categoria: "Rpg"
+      categoria: "Rpg",
+      stock: 10
     },
     {
       id: 4,
@@ -29,7 +32,8 @@ export const PRODUCTS = [
       img: "/caratulaWow.jpg",
       precio: 60,
       descripcion: "MMORPG continuacion de la aclamada saga warcraft.",
-      categoria: "Rpg"
+      categoria: "Rpg",
+      stock: 10
     },
     {
       id: 5,
@@ -37,7 +41,8 @@ export const PRODUCTS = [
       img: "/caratulaTomb.jpg",
       precio: 60,
       descripcion: "El juego es un reinicio de la serie y cuenta los orígenes de la protagonista de la serie, Lara Croft.",
-      categoria: "Aventura"
+      categoria: "Aventura",
+      stock: 10
     },
     {
       id: 6,
@@ -45,7 +50,8 @@ export const PRODUCTS = [
       img: "/caratulaUncharted.jpg",
       precio: 60,
       descripcion: "Ambientada dos años después de los eventos de El tesoro de Drake, El reino de los ladrones sigue a Nathan Drake y Chloe Frazer en su búsqueda",
-      categoria: "Aventura"
+      categoria: "Aventura",
+      stock: 10
     },
     {
       id: 7,
@@ -53,6 +59,7 @@ export const PRODUCTS = [
       img: "/caratulaJust.jpg",
       precio: 60,
       descripcion: "Just Cause 4 es un videojuego de acción y aventuras en tercera persona ambientado en un mundo abierto.",
-      categoria: "Aventura"
+      categoria: "Aventura",
+      stock: 10
     }
   ];
