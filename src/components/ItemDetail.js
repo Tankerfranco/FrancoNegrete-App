@@ -4,10 +4,11 @@ import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import { NavLink } from "react-router-dom";
 
-const ItemDetail = ({producto}) => {
+const ItemDetail = ({producto}) => { 
+
   const [seleccionado, setSeleccionado] = useState(false)
   const [stock, setStock] = useState(10);
-  const {addItem, cart} = useContext(CartContext)
+  const {addItem} = useContext(CartContext)
   const addToCart = (count) => {
     if (stock - count >= 0) setStock(stock - count);
     addItem(producto, count)

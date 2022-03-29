@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import CartWidget from "./CartWidget";
 
 function NavBar() {
   return (
@@ -18,9 +17,10 @@ function NavBar() {
         <Link className="token" to="/categoria/Aventura">
           Aventura
         </Link>
-        <Link to="/Carrito" className="token">
-            <FontAwesomeIcon icon={faCartShopping}/>
+        <Link className="token" to="/categoria/Estrategia">
+          Estrategia
         </Link>
+        <CartWidget/>
       </nav>
     </header>
   );

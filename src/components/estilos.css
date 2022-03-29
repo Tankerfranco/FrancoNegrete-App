@@ -198,7 +198,7 @@ h1{
 .detalles {
   display: flex;
   margin: 100px;
-  max-width: 275px;
+  max-width: 300px;
   justify-content: center;
 }
 
@@ -209,6 +209,7 @@ h1{
 .textoDetalles{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-left: 1rem;
     font-size: 2rem;
@@ -257,7 +258,67 @@ h1{
   background-color: red;
   border: 2px solid red;
   text-align: center;
+  transition: 0.4s;
+}
 
+.btnLimpiar:hover{
+  color: black;
+  background-color: white;
+}
+
+.contenedorVacio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.btnVacio{
+  font-size: 2rem;
+  margin-right: 5px;
+  width: 100%;
+  background-color: red;
+  border: 2px solid red;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.btnVacio:hover{
+  color: black;
+  background-color: white;
+}
+
+.btnCompra{
+  font-size: 1rem;
+  margin: 10px;
+  width: 100%;
+  background-color: red;
+  border: 2px solid red;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.btnCompra:hover{
+  color: black;
+  background-color: white;
+}
+
+.botonesCarrito{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.contenedorRecibo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.5rem;
+  font-size: 2rem;
 }
 
 /* Main - end */
