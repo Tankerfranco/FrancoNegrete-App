@@ -9,8 +9,7 @@ const {productos} = producto
             <h3>{productos.nombre}</h3>
             <button className="btnDetalles">
             <Link to={`/item/${productos.id}`} className="btnColor">ver detalle</Link>
-            </button>
-            
+            </button>      
         </div>
     )
 }

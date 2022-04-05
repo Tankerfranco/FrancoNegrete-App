@@ -1,9 +1,32 @@
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";
+import { addDoc , collection , serverTimestamp } from "firebase/firestore"
+import { db } from "../Firebase"
 
 const Carrito = () => {
   const { clear, cart, removeItem, count, price } = useContext(CartContext);
+  const handleClick = () => {
+        
+    const orden = {
+        buyer : {
+            nombre : "Franco",
+            telefono : "35120095",
+            email : "franconegrete12@gmail.com"
+        },
+        items : cart,
+        date : serverTimestamp(),
+        total : price
+    }
+    const ordenesCollection = collection(db, "ordenes")
+    const pedido = addDoc(ordenesCollection,orden)
+
+    pedido
+    .then(res=>{
+        console.log(res.id)
+    })
+
+}
   return (
     <>
       {count > 0 ? (
@@ -43,7 +66,7 @@ const Carrito = () => {
         {count > 0 ? (
           <>
             <Link to={"/recibo"}>
-              <button onClick={clear}className="btnCompra">Terminar Compra</button>
+              <button onClick={handleClick} className="btnCompra">Terminar Compra</button>
             </Link>
             <button onClick={clear} className="btnLimpiar">
               Limpiar

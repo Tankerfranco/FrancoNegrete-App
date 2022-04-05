@@ -23,19 +23,6 @@ const ItemDetailContainer = () => {
       })
   }, [id])
   
-
- /*  useEffect(()=>{
-    const q = query(collection(db, "productos"),where("id","==",id))
-    getDocs(q)
-      .then((res)=> setProducto(res.docs.map(p => ({producto:p.data()}))))
-      .catch((err) => {toast.error(err)})
-      .finally(() => {
-        setCarga(false)
-      })
-  }, [id]) */
-
-
-  
   return (
     <>
         <div className='detalleContenedor'>
