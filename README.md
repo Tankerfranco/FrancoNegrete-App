@@ -30,6 +30,12 @@ CSS: Libraries for the style sheet were not implemented.
 ## Project Link and photos
 [Link to the project](https://courageous-creponne-a0de0c.netlify.app/)
 
+.md /public/catalogo.png
+
+.md /public/carrito.png
+
+.md /public//descripcion.png
+
 ## installation
 
 1. Open Git Bash.
