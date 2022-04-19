@@ -1,10 +1,10 @@
-import NavBar from "./components/NavBar"
-import Main from "./components/Main"
-import Footer from "./components/Footer"
+import NavBar from "./components/header/NavBar"
+import Main from "./Main"
+import Footer from "./Footer"
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import { BrowserRouter } from "react-router-dom"
-import { CartContextProvider } from "./context/CartContext"
+import { CartContextProvider } from "./components/context/CartContext"
 
 
 function App() {

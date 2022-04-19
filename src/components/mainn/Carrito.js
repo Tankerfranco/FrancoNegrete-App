@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";
 import { addDoc , collection , serverTimestamp } from "firebase/firestore"
-import { db } from "../Firebase"
+import { db } from "../hook/Firebase"
 
 const Carrito = () => {
   const { clear, cart, removeItem, count, price } = useContext(CartContext);

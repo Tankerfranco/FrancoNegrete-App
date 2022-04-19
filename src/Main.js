@@ -1,8 +1,8 @@
-import ItemListContainer from "./ItemListContainer";
-import ItemDetailContainer from "./ItemDetailContainer";
+import ItemListContainer from "./components/main/ItemListContainer";
+import ItemDetailContainer from "./components/main/ItemDetailContainer";
 import { Route, Routes } from "react-router-dom";
-import Recibo from "./Recibo";
-import Carrito from "./Carrito";
+import Recibo from "./components/main/Recibo";
+import Carrito from "./components/main/Carrito";
 
 const Main = () => {
   return (

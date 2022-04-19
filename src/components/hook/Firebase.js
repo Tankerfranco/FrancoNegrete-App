@@ -6,12 +6,12 @@ import { getFirestore} from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCuLXnmxnNxKLtNBkXruEWtCqQ279hqpZg",
-  authDomain: "laapp-d4a7d.firebaseapp.com",
-  projectId: "laapp-d4a7d",
-  storageBucket: "laapp-d4a7d.appspot.com",
-  messagingSenderId: "226055779399",
-  appId: "1:226055779399:web:641bb929578186d4d0ed62"
+  apiKey: "AIzaSyDgiwIk8VfegaJPqTDG5GVhAx63h823nnA",
+  authDomain: "trabagoreact.firebaseapp.com",
+  projectId: "trabagoreact",
+  storageBucket: "trabagoreact.appspot.com",
+  messagingSenderId: "755277524190",
+  appId: "1:755277524190:web:6a1a46be7d034082bfa64f"
 };
 
 // Initialize Firebase

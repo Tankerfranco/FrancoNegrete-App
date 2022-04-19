@@ -1,9 +1,9 @@
 import ItemList from "./ItemList";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import Loader from "./Loader";
+import Loader from "../../Loader";
 import { useParams } from "react-router-dom";
-import { db } from "../Firebase";
+import { db } from "../hook/Firebase";
 import { getDocs, collection, query, where } from "firebase/firestore";
 
 const ItemListContainer = () => {
