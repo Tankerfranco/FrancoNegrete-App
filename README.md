@@ -37,10 +37,10 @@ CSS: Libraries for the style sheet were not implemented.
 2. Change the current working directory to the location where you want to clone the directory.
 
 3. Type 'git clone', and then paste the URL you copied from the GitHub repository.
-    ### $ git clone https://github.com/Tankerfranco/FrancoNegrete-App.git
+    $ git clone https://github.com/Tankerfranco/FrancoNegrete-App.git
 
 4. Install the necessary repository dependencies. On the command line, run the following command:
-    ### npm install
+    npm install
 
 5. Run the application.
-    ### npm start
+   npm start
