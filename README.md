@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2de0f80c-78cd-43fd-9d40-621bcac1210f/deploy-status)](https://app.netlify.com/sites/courageous-creponne-a0de0c/deploys)
+
 # E-COMMERCE Project in ReactJs
 
 ## Proyect Description
@@ -11,8 +13,6 @@ The project is an E-commerce created with React.js and other libraries. The proj
     * React-router-dom (v6.2.2)
     * React-toastify (v8.2.0)
     * Firebase (v9.6.10)
-
-
 
 ## Available Scrip
 
