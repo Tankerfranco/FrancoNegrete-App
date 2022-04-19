@@ -30,11 +30,9 @@ CSS: Libraries for the style sheet were not implemented.
 ## Project Link and photos
 [Link to the project](https://courageous-creponne-a0de0c.netlify.app/)
 
-.md /public/catalogo.png
-
-.md /public/carrito.png
-
-.md /public//descripcion.png
+(./public/Catalogo.png)
+(./public/Descripcion.png)
+(./public/Carrito.png)
 
 ## installation
 
@@ -43,11 +41,17 @@ CSS: Libraries for the style sheet were not implemented.
 2. Change the current working directory to the location where you want to clone the directory.
 
 3. Type 'git clone', and then paste the URL you copied from the GitHub repository.
-    ### `$ git clone https://github.com/Tankerfranco/FrancoNegrete-App.git`
+~~~
+$ git clone https://github.com/Tankerfranco/FrancoNegrete-App.git
+~~~
 
 4. Install the necessary repository dependencies. On the command line, run the following command:
-   ### `npm install`
+~~~
+npm install
+~~~
 
 5. Run the application.
-    ### `npm start`
+~~~
+npm start
+~~~
   
