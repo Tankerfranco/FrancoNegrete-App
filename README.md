@@ -44,3 +44,10 @@ CSS: Libraries for the style sheet were not implemented.
 
 5. Run the application.
     ### `npm start`
+    ### '$ git clone https://github.com/Tankerfranco/FrancoNegrete-App.git'
+
+4. Install the necessary repository dependencies. On the command line, run the following command:
+    ### 'npm install'
+
+5. Run the application.
+   ### 'npm start'
