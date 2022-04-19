@@ -30,9 +30,11 @@ CSS: Libraries for the style sheet were not implemented.
 ## Project Link and photos
 [Link to the project](https://courageous-creponne-a0de0c.netlify.app/)
 
-(./public/Catalogo.png)
-(./public/Descripcion.png)
-(./public/Carrito.png)
+![Imagen](./public/Catalogo.png)
+
+![Imagen](./public/Descripcion.png)
+
+![Imagen](./public/Carrito.png)
 
 ## installation
 
