@@ -23,7 +23,7 @@ React-router-dom: npm package that allowed to implement dynamic routing in the w
 
 React-toastify: It was used for pop-up notifications to users.
 
-Firebase: It was used as a database environment and user authentication.
+Firebase: It was used as a database environment.
 
 CSS: Libraries for the style sheet were not implemented.
 
