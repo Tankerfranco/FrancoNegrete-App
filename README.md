@@ -27,40 +27,20 @@ Firebase: It was used as a database environment and user authentication.
 
 CSS: Libraries for the style sheet were not implemented.
 
-## Project Photes and Link
+## Project Link and photos
 [Link to the project](https://courageous-creponne-a0de0c.netlify.app/)
 
-## Available Scrip
+## installation
 
-In the project directory, you can run:
+1. Open Git Bash.
 
-### `npm start`
+2. Change the current working directory to the location where you want to clone the directory.
 
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+3. Type 'git clone', and then paste the URL you copied from the GitHub repository.
+ * $ git clone https://github.com/Tankerfranco/FrancoNegrete-App.git
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+4. Install the necessary repository dependencies. On the command line, run the following command:
+    * npm install
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-
-
-### `npm run eject`
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. Run the application.
+    * npm start
