@@ -34,7 +34,7 @@ CSS: Libraries for the style sheet were not implemented.
 
 ![Imagen](./public/Descripcion.png)
 
-![Imagen](./public/Carrito.png)
+![Imagen](./public/carrito.png)
 
 ## installation
 
