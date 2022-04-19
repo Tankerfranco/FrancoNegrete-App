@@ -14,6 +14,22 @@ The project is an E-commerce created with React.js and other libraries. The proj
     * React-toastify (v8.2.0)
     * Firebase (v9.6.10)
 
+## implementation
+React.js: It was used as the application development interface.
+
+Font Awesome for React: Library of icons for the application.
+
+React-router-dom: npm package that allowed to implement dynamic routing in the web application.
+
+React-toastify: It was used for pop-up notifications to users.
+
+Firebase: It was used as a database environment and user authentication.
+
+CSS: Libraries for the style sheet were not implemented.
+
+## Project Photes and Link
+[Link to the project](https://courageous-creponne-a0de0c.netlify.app/)
+
 ## Available Scrip
 
 In the project directory, you can run:
