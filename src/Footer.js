@@ -6,7 +6,6 @@ const Footer = () => {
       <p>Defensa del Consumidor</p>
       <p>Copyright © Juegoteca</p>
     </footer>
-    
   )
 }
 
