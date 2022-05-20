@@ -30,7 +30,7 @@ CSS: Libraries for the style sheet were not implemented.
 ## Project Link and photos
 
 [Link to the repository](https://github.com/Tankerfranco/FrancoNegrete-App.git)
-[Link to the project](https://courageous-creponne-a0de0c.netlify.app/)
+[Link to the project](https://lucky-buttercream-2c813c.netlify.app)
 
 ![Imagen](./public/Catalogo.png)
 
