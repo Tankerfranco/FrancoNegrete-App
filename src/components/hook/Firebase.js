@@ -2,14 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDgiwIk8VfegaJPqTDG5GVhAx63h823nnA",
-  authDomain: "trabagoreact.firebaseapp.com",
-  projectId: "trabagoreact",
-  storageBucket: "trabagoreact.appspot.com",
-  messagingSenderId: "755277524190",
-  appId: "1:755277524190:web:6a1a46be7d034082bfa64f"
+  apiKey: "AIzaSyBOev7-C_I7JRvunusWVWi59JBklANewmg",
+  authDomain: "miproyecto-f2a5e.firebaseapp.com",
+  projectId: "miproyecto-f2a5e",
+  storageBucket: "miproyecto-f2a5e.appspot.com",
+  messagingSenderId: "815137798517",
+  appId: "1:815137798517:web:fd12699ab663ebab233b3c"
 };
 
 const app = initializeApp(firebaseConfig);
-
 export const db = getFirestore(app);
